@@ -1,0 +1,54 @@
+.nav-m
+    position: absolute
+    left: 0
+    top: 0
+    width: 345px
+    height: 100vh
+    background: $main_color
+    z-index: 3
+    padding-top: 15vh
+    padding-left: 75px
+    padding-bottom: 50px
+    transition: all 0.5s
+    &__box
+        list-style-type: none
+    &__item
+        & a
+            position: relative
+            font-style: normal
+            font-weight: bold
+            font-size: 24px
+            line-height: 36px
+            color: #FFFFFF
+            margin-bottom: 15px
+            cursor: pointer
+            text-decoration: none
+            &:before
+                content: ''
+                position: absolute
+                width: 15px
+                height: 15px
+                border-radius: 100%
+                border: 1px solid #000000
+                top: 10px
+                left: -35px
+            &:hover
+                &:before
+                    background-color: #FFFFFF
+.menu-close
+    position: relative
+    &__img
+        position: absolute
+        right: 25px
+        top: -12.5vh
+        cursor: pointer
+.off
+    left: -100%
+.overlay
+    position: absolute
+    height: 100vh
+    width: 100vw
+    background-color: #FFFFFF
+    opacity: 0.5
+
+

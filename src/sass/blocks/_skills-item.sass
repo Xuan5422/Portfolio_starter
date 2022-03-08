@@ -1,0 +1,29 @@
+.skills-item
+    width: 260px
+    height: auto
+    display: flex
+    &__descr
+        width: 200px
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        line-height: 18px
+        color: #000000
+    & span
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 21px
+        color: #000000
+    &__img
+        position: relative
+        width: 36px
+        height: 36px
+        background-color: $main_color
+        border-radius: 100%
+        &::after
+            position: absolute
+            content: ''
+            background: url("icons/about_me/web_development.svg") center center/cover no-repeat
+            width: 25px
+            height: 24px
