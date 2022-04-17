@@ -11,12 +11,29 @@
     &:before
         content: ''
         position: absolute
-        width: 36px
-        height: 36px
-        border-radius: 100%
-        background: $main_color
+        +yellow_circle()
         z-index: -1
         left: -15px
-        top: -7px
-
-
+        top: -8px
+    &_center
+        text-align: center
+        margin-left: 0
+        &:before
+            left: 50%
+            transform: translateX(-50%)
+            top: -7px
+    &_sm-sircle
+        margin-left: 0
+        margin-bottom: 0
+        font-style: normal
+        font-weight: 700
+        font-size: 20px
+        line-height: 30px
+        color: #000000
+        &:before
+            width: 15px
+            height: 15px
+            background-color: $main_color
+            border-radius: 100%
+            left: -43px
+            top: 4px

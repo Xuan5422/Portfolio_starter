@@ -1,9 +1,23 @@
-/* =my_btn($btn_width, $btn_hieght, $font_weight, $font_size)
-        width: $btn_width
-        height: $btn_hieght
-        background: $main_color
-        font-style: normal
-        font-weight: $font_weight
-        font-size: $font_size
-        text-align: center
-        color: #000000 */
+=yellow_circle
+        width: 36px
+        height: 36px
+        background-color: $main_color
+        border-radius: 100%
+
+=my_icon($path, $m_w, $m_h, $m_l, $m_t)
+        position: relative
+        +yellow_circle()
+        &::after
+                position: absolute
+                content: ''
+                background: url($path) center center/cover no-repeat
+                width: $m_w
+                height: $m_h
+                left: $m_l
+                top: $m_t
+=skill-count($percent)
+        display: block
+        width: $percent
+        height: 14px
+        background-color: $main_color
+

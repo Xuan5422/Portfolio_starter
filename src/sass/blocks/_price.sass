@@ -1,0 +1,41 @@
+.price
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    &__title
+        position: relative
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 21px
+        color: #000000
+        margin-bottom: 5px
+        &::before
+            position: absolute
+            content: ''
+            width: 15px
+            height: 15px
+            border-radius: 100%
+            background-color: $main_color
+            top: 3px
+            left: -25px
+    &__cost
+        font-style: normal
+        font-weight: 700
+        font-size: 14px
+        line-height: 21px
+        color: #000000
+    &__descr
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        line-height: 18px
+        color: #000000
+    &__item
+        padding-left: 25px
+        width: 366px
+        height: 44px
+        margin-bottom: 15px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between

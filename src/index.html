@@ -44,19 +44,19 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
     <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
     <section class="promo">
-        <div class="overlay activ"></div>
+        <div class="overlay"></div>
         <div class="gamburger">
             <div class="gamburger__item"></div>
             <div class="gamburger__item gamburger__item_long"></div>
             <div class="gamburger__item"></div>
         </div>
-        <div class="nav-m">
+        <div class="nav-m off">
             <div class="menu-close">
                 <img src="icons/Close.svg" alt="close" class="menu-close__img">
             </div>
@@ -103,7 +103,7 @@
                     <div class="title">Про меня</div>
                     <h1 class="subtitle subtitle_fs36">Меня зовут Александра</h1>
                     <div class="devider"></div>
-                    <div class="info">
+                    <div class="text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -112,34 +112,334 @@
                     </div>
                 </div>
 
-                <div id="third" class="box__skills">
-                    <div class="skills-item">
-                        <div class="skills-item__img"></div>
-                        <div class="skills-item__descr">
+                <div id="third" class="box__story">
+                    <div class="info-item">
+                        <div class="info-item__web"></div>
+                        <div class="info-item__descr">
                             <span>Web-разработка</span> <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
                         </div>
                     </div>
-                    <div class="skills-item">
-                        <div class="skills-item__img"></div>
-                        <div class="skills-item__descr">
+                    <div class="info-item">
+                        <div class="info-item__design"></div>
+                        <div class="info-item__descr">
                             <span>UI/UX Design</span> <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
                         </div>
                     </div>
-                    <div class="skills-item">
-                        <div class="skills-item__img"></div>
-                        <div class="skills-item__descr">
+                    <div class="info-item">
+                        <div class="info-item__mobile"></div>
+                        <div class="info-item__descr">
                             <span>Разработка приложений</span> <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="experience">
+        <div class="container">
+            <div class="title title_center">Опыт</div>
+            <h2 class="subtitle subtitle_fs36 subtitle_center">Чем я буду полезна</h2>
+            <div class="devider devider_center"></div>
+            <div class="resume">
+                <div class="info">
+                    <h2 class="title title_sm-sircle">Образование</h2>
+                    <ul class="info__box">
+                        <li class="info__list">
+                            <div class="info__head">
+                                <div class="info__mgtu"></div>
+                                <h3 class="info__header">
+                                    МГТУ им. Н. Э. Баумана<br><span>Диплом магистра | Москва (2014-2020)</span>
+                                </h3>
+                            </div>
+                            <div class="info__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </div>
+                        </li>
+                        <li class="info__list">
+                            <div class="info__head">
+                                <div class="info__courses"></div>
+                                <h3 class="info__header">
+                                    Udemy<br><span>Курсы по Web-разработке</span>
+                                </h3>
+                            </div>
+                            <div class="info__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h2 class="title title_sm-sircle">Опыт работы</h2>
+                    <ul class="info__box">
+                        <li class="info__list">
+                            <div class="info__head">
+                                <div class="info__developer"></div>
+                                <h3 class="info__header">
+                                    Front-End Developer<br><span>EPAM | Москва (2018-2019)</span>
+                                </h3>
 
-    <script src="js/script.js"></script>
+                            </div>
+
+                            <div class="info__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </div>
+                        </li>
+                        <li class="info__list">
+                            <div class="info__head">
+                                <div class="info__designer"></div>
+                                <h3 class="info__header">
+                                    UI/UX Designer<br><span>Squad Team | Москва (2018)</span>
+                                </h3>
+                            </div>
+                            <div class="info__descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmo.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="title title_center">Навыки</div>
+            <h2 class="subtitle subtitle_fs36 subtitle_center">Что я использую в работе</h2>
+            <div class="devider devider_center"></div>
+            <div class="skill-box">
+                <div class="skill-box__item">
+                    <img src="icons/skills/html5.svg" alt="html5" class="skill-box__img ">
+                    <h2 class="skill-box__title">HTML5</h2>
+                    <div class="skill-box__descr">
+                        Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать
+                        более SEO-оптимизированную структуру вашего продукта
+                    </div>
+                </div>
+                <div class="skill-box__item">
+                    <img src="icons/skills/css3.svg" alt="css3" class="skill-box__img">
+                    <h2 class="skill-box__title">CSS3</h2>
+                    <div class="skill-box__descr">
+                        Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или
+                        приложения. Все ограничивается только вашей фантазией!
+                    </div>
+                </div>
+                <div class="skill-box__item">
+                    <img src="icons/skills/js.svg" alt="js" class="skill-box__img">
+                    <h2 class="skill-box__title">Java Script</h2>
+                    <div class="skill-box__descr">
+                        Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки,
+                        получение данных от сервера и многое другое
+                    </div>
+                </div>
+                <div class="skill-box__item">
+                    <img src="icons/skills/jquery.svg" alt="jquery" class="skill-box__img skill-box__img_Jquery">
+                    <h2 class="skill-box__title">Jquery</h2>
+                    <div class="skill-box__descr">
+                        Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её
+                        не будем, но навык работы с ней присутствует
+                    </div>
+                </div>
+                <div class="skill-box__item">
+                    <img src="icons/skills/react.svg" alt="react" class="skill-box__img">
+                    <h2 class="skill-box__title">React</h2>
+                    <div class="skill-box__descr">
+                        Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный
+                        продукт именно под ваши цели
+                    </div>
+                </div>
+                <div class="skill-box__item">
+                    <img src="icons/skills/node.js.svg" alt="node.js" class="skill-box__img">
+                    <h2 class="skill-box__title">Node.js</h2>
+                    <div class="skill-box__descr">
+                        Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять
+                        действия, которые пользователь не видит
+                    </div>
+                </div>
+                <div class="skill-box__item">
+                    <img src="icons/skills/mongo.db.svg" alt="mongo.db" class="skill-box__img skill-box__img_Mongo">
+                    <h2 class="skill-box__title">Mongo.db</h2>
+                    <div class="skill-box__descr">
+                        Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
+                    </div>
+                </div>
+            </div>
+            <div class="rating">
+                <div class="rating-item">
+                    <div class="title">Создание сайтов</div>
+                    <div class="rating-item__count">100%</div>
+                    <div class="rating-item__band">
+                        <span class="rating-item__web"></span>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <div class="title">Создание приложений</div>
+                    <div class="rating-item__count">85%</div>
+                    <div class="rating-item__band">
+                        <span class="rating-item__app"></span>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <div class="title">Работа с данными</div>
+                    <div class="rating-item__count">90%</div>
+                    <div class="rating-item__band">
+                        <span class="rating-item__dat"></span>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <div class="title">Креативность</div>
+                    <div class="rating-item__count">75%</div>
+                    <div class="rating-item__band">
+                        <span class="rating-item__creat"></span>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <div class="title">Создание дизайна</div>
+                    <div class="rating-item__count">90%</div>
+                    <div class="rating-item__band">
+                        <span class="rating-item__des"></span>
+                    </div>
+                </div>
+                <div class="rating-item">
+                    <div class="title">Soft skills</div>
+                    <div class="rating-item__count">95%</div>
+                    <div class="rating-item__band">
+                        <span class="rating-item__soft"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="title title_center">Портфолио</div>
+            <h2 class="subtitle subtitle_fs36 subtitle_center">Мои работы</h2>
+            <div class="devider devider_center"></div>
+            <div class="portfolio__wrapper">
+                <a href="#" class="portfolio_item">
+                    <img src="img/works/uber.jpg" alt="uber" class="portfolio__img">
+                </a>
+                <a href="#" class="portfolio_item">
+                    <img src="img/works/pulse.jpg" alt="pulse" class="portfolio__img">
+                </a>
+                <a href="#" class="portfolio_item">
+                    <img src="img/works/bread.jpg" alt="bread" class="portfolio__img">
+                </a>
+                <a href="#" class="portfolio_item">
+                    <img src="img/works/plans.jpg" alt="plans" class="portfolio__img plans">
+                </a>
+                <a href="#" class="portfolio_item">
+                    <img src="img/works/ipad.jpg" alt="ipad" class="portfolio__img">
+                </a>
+                <a href="#" class="portfolio_item">
+                    <img src="img/works/mac.jpg" alt="mac" class="portfolio__img mac">
+                </a>
+            </div>
+            <div class="title title_center">Прайс-лист</div>
+            <div class="space"></div>
+            <div class="devider devider_center"></div>
+            <div class="price">
+                <div class="price__item">
+                    <h class="price__title">Landing-page</h>
+                    <div class="price__cost">от 8000 руб.</div>
+                    <div class="price__descr">Одностраничный сайт для презентации услуг/товаров/...</div>
+                </div>
+                <div class="price__item">
+                    <h class="price__title">Корпоративный сайт</h>
+                    <div class="price__cost">от 20000 руб.</div>
+                    <div class="price__descr">Сайт для вашего бизнеса или компании</div>
+                </div>
+                <div class="price__item">
+                    <h class="price__title">Интернет-магазин</h>
+                    <div class="price__cost">от 30000 руб.</div>
+                    <div class="price__descr">Инструмент для ваших продаж в сети</div>
+                </div>
+                <div class="price__item">
+                    <h class="price__title">Web-приложение</h>
+                    <div class="price__cost">от 28000 руб.</div>
+                    <div class="price__descr">Приложение внутри браузера для лучшего комфорта</div>
+                </div>
+                <div class="price__item">
+                    <h class="price__title">Android/IOS Приложение</h>
+                    <div class="price__cost">от 25000 руб.</div>
+                    <div class="price__descr">Приложение для смартфона любой ОС</div>
+                </div>
+                <div class="price__item">
+                    <h class="price__title">Дизайн</h>
+                    <div class="price__cost">Индивидуально</div>
+                    <div class="price__descr">Создам дизайн для вашего сайта/приложения...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts-box">
+                <img id="first" src="img/main_photo.jpg" alt="photo" class="contacts-box__photo">
+                <div id="second" class="contacts-box__descr">
+                    <div class="title">Контакты</div>
+                    <h1 class="subtitle subtitle_fs36">Свяжитесь со мной</h1>
+                    <div class="devider"></div>
+                    <h3 class="contacts-box__way">Любым удобным для вас способом:</h3>
+                    <div class="contacts-box__social">
+                        <a href="#" class="contacts-box__link"><img src="icons/social/facebook.svg" alt=""
+                                class="contacts-box__imag"></a>
+                        <a href="#" class="contacts-box__link"><img src="icons/social/telegram.svg" alt=""
+                                class="contacts-box__imag"></a>
+                        <a href="#" class="contacts-box__link"><img src="icons/social/instagram.svg" alt=""
+                                class="contacts-box__imag"></a>
+                    </div>
+                    <div class="contacts-box__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                    <form action="#" class="form">
+                        <div class="form__name">
+                            <label for="name" class="label__nam">Ваше имя</label>
+                            <input id="name" required name="name" type="text" class="form__inpu">
+                        </div>
+                        <div class="form__email">
+                            <label for="email" class="label__mail">Ваша почта</label>
+                            <input id="email" required name="email" type="email" class="form__inpu">
+                        </div>
+                        <div class="form__message">
+                            <label for="message" class="label__messag">Ваше сообщение</label>
+                            <textarea name="message" id="message"> </textarea>
+                        </div>
+                        <div class="form__triggers">
+                            <button class="form__submit">Отправить сообщение</button>
+                            <div class="form__policy">
+                                <input required type="checkbox" name="checkbox" class="form__checkbox">
+                                <span>Я согласен(а) с <a href="policy.html"> политикой конфиденциальности</a></span>
+                            </div>
+
+                        </div>                
+                        
+
+
+                    </form>
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
 </body>
 
 </html>
