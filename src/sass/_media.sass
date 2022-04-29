@@ -11,16 +11,39 @@
 @media (max-width: 1530px)
     .container
         width: 72vw
+    .resume
+        padding-left: 6.24%
+        column-gap: 8%
 @media (max-width: 1320px)
     .container
         width: 77vw
     .social
         left: -10vw
-@media (max-width: 1320px)
+    .portfolio
+        padding-top: 46px
+        &__wrapper
+            margin-top: 40px
+            margin-bottom: 40px
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+        &__img
+            height: 280px
+            width: 280px
+@media (max-width: 1220px)
     .container
         width: 83vw
     .social
         left: -12vw
+@media (max-width: 1173px)
+    .contacts
+        padding-top: 40px
+    .contacts-box
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        &__photo
+            display: none
 @media (max-width: 1100px)
     .container
         width: 86vw
@@ -31,18 +54,142 @@
         width: 95vw
     .social
         display: none
+    .resume
+        padding-left: 4%
+        column-gap: 5%
+    .rating
+        justify-content: space-around
 @media (max-width: 957px)
+    .experience
+        margin-top: 40px
+    .skills
+        margin-top: 46px
+    .rating
+        padding-top: 40px
     .about
         padding-top: 40px
     .box
         display: flex
         flex-wrap: wrap
         justify-content: center
+        &__photo
+            margin-bottom: 40px
+            width: 90%
         &__story
             margin-top: 20px
-.title
-    margin-top: 46px
-.info-item
-    margin-bottom: 20px
+    // .title
+        // margin-top: 46px
+    .info-item
+        margin-bottom: 20px
+    .resume
+        padding: 0 10px 0 37px
+        margin: 0 auto
+        display: block
+    .info
+        &::before
+            left: -4.1vw
+    .title
+        &_sm-sircle
+            &:before
+                left: -4.8vw
+@media (max-width: 826px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -4.9vw
+@media (max-width: 782px)
+    .promo
+        padding-left: 10px
+    .box
+        padding-left: 10px
+    .space
+        height: 21px
+    .devider
+        margin-bottom: 20px
+    .price
+        justify-content: center
+        &__item
+            margin-right: 5px
 @media (max-width: 743px)
-    padding: 0 10px
+    .rating
+        justify-content: center
+    .rating-item
+        margin-left: 10px
+        width: 70%
+        &__band
+            width: 100%
+
+@media (max-width: 708px)
+    .contacts-box
+        padding-left: 10px
+    .title
+        &_sm-sircle
+            &:before
+                left: -5vw
+@media (max-width: 630px)
+    .form
+        display: flex
+        flex-wrap: wrap
+        &__inpu
+            height: 45px
+            width: 100%
+        &__message
+            height: auto
+            width: 100%
+        &__textar
+            height: 190px
+            width: 100%
+        &__policy
+            margin-top: 20px
+        &__triggers
+            flex-direction: column
+            align-items: flex-start
+            justify-content: flex-start
+
+@media (max-width: 600px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.1vw
+@media (max-width: 577px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.2vw
+@media (max-width: 499px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.4vw
+/* @media (max-width: 410px)
+ .container
+ width: 97vw */
+@media (max-width: 396px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.5vw
+@media (max-width: 383px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.6vw
+@media (max-width: 371px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.7vw
+@media (max-width: 359px)
+    .title
+        &_sm-sircle
+            &:before
+                left: -5.8vw
+@media (max-width: 344px)
+    .nav-m
+        width: 345px
+    .menu-close
+        position: relative
+        &__img
+            right: 35px
+    .off
+        left: -110%
